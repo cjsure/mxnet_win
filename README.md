@@ -6,6 +6,7 @@ Dependencies:
 ----------
 * CUDA 7.0 for windows
 * third party: https://github.com/jh-yu/jiah_third_party
+* Visual Studio 2013
 
 <img src=https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/mxnet2.png width=135/> for Deep Learning
 =====
