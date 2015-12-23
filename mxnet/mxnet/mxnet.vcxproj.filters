@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{b276c345-b062-4472-b13d-70c612cbd7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8f2b8460-199b-42e4-8159-4b3681826cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\mxnet">
+      <UniqueIdentifier>{bda39c9f-ddbf-4f4b-9941-a28e93fe9001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{8373d7ee-4718-440c-9fb4-3032d4a38556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{723179e1-8b52-49de-a016-50c93a18f074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{cea78d00-723f-4270-9673-bf60917e490c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\kvstore">
+      <UniqueIdentifier>{83f0d2a6-f841-4529-b6a6-04e14de71a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\operator">
+      <UniqueIdentifier>{dc3731db-8334-4991-83b1-1e184d04d137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ndarray">
+      <UniqueIdentifier>{621ee404-e39f-4486-b744-fd224ac0a8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\storage">
+      <UniqueIdentifier>{8ba1011e-ef29-4ef8-b5af-039cf0d8c33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\symbol">
+      <UniqueIdentifier>{be7ba4ff-d3eb-4e3c-b690-aea51f1541ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\mxnet\base.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\c_api.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\engine.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\io.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\kvstore.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\ndarray.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\operator.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\resource.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\storage.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\mxnet\symbolic.h">
+      <Filter>include\mxnet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\cuda_utils.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\lazy_alloc_array.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\object_pool.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\common\utils.h">
+      <Filter>src\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\engine_impl.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\stream_manager.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\thread_pool.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\engine\threaded_engine.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\image_augmenter.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\image_recordio.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\inst_vector.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\iter_batchloader.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\iter_normalize.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\io\iter_prefetcher.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\kvstore\kvstore_device.h">
+      <Filter>src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\kvstore\kvstore_local.h">
+      <Filter>src\kvstore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ndarray\ndarray_function.h">
+      <Filter>src\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ndarray\ndarray_function-inl.h">
+      <Filter>src\ndarray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\symbol\graph_algorithm.h">
+      <Filter>src\symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\symbol\graph_executor.h">
+      <Filter>src\symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\symbol\graph_memory_allocator.h">
+      <Filter>src\symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\symbol\static_graph.h">
+      <Filter>src\symbol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\cpu_device_storage.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\gpu_device_storage.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\naive_storage_manager.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\pinned_memory_storage.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\pooled_storage_manager.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\storage\storage_manager.h">
+      <Filter>src\storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\activation-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\batch_norm-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\concat-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\convolution-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\cudnn_activation-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\cudnn_convolution-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\cudnn_lrn-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\cudnn_pooling-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\dropout-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\elementwise_binary_op-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\elementwise_sum-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\fully_connected-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\leaky_relu-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\lrn-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\mshadow_op.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\operator_common.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\param.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\pooling-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\reshape-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\operator\softmax-inl.h">
+      <Filter>src\operator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\c_api.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resource.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\engine.cc">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\naive_engine.cc">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\threaded_engine.cc">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\threaded_engine_perdevice.cc">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\engine\threaded_engine_pooled.cc">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\io\io.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\io\iter_image_recordio.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\io\iter_mnist.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\kvstore\kvstore.cc">
+      <Filter>src\kvstore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ndarray\ndarray.cc">
+      <Filter>src\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ndarray\ndarray_function.cc">
+      <Filter>src\ndarray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\symbol\graph_executor.cc">
+      <Filter>src\symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\symbol\static_graph.cc">
+      <Filter>src\symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\symbol\symbol.cc">
+      <Filter>src\symbol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\storage\storage.cc">
+      <Filter>src\storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\activation.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\batch_norm.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\concat.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\convolution.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\dropout.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\elementwise_binary_op.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\elementwise_sum.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\fully_connected.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\leaky_relu.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\lrn.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\operator.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\pooling.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\reshape.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\operator\softmax.cc">
+      <Filter>src\operator</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="..\..\src\ndarray\ndarray_function.cu">
+      <Filter>src\ndarray</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\activation.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\batch_norm.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\concat.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\convolution.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\dropout.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\elementwise_binary_op.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\elementwise_sum.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\fully_connected.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\leaky_relu.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\lrn.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\pooling.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\reshape.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\..\src\operator\softmax.cu">
+      <Filter>src\operator</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

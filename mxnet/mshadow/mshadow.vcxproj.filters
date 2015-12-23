@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mshadow">
+      <UniqueIdentifier>{e9d3b831-fec2-46e5-a414-2e1ddf1e9504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow-ps">
+      <UniqueIdentifier>{ce530aab-b9a1-4a23-98c6-c230c18611cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow\cuda">
+      <UniqueIdentifier>{052911fa-5ffb-4c60-bb45-656f5d1b1d47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mshadow\extension">
+      <UniqueIdentifier>{b0a7d78a-37f7-47d8-8d90-2a1c67e72459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\mshadow\mshadow\base.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\dot_engine-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\expr_engine-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\expr_scalar-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\expression.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\io.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\logging.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\random.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\sse-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\stream_gpu-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\tensor.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\tensor_blob.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\tensor_container.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\tensor_cpu-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\tensor_gpu-inl.h">
+      <Filter>mshadow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\cuda\reduce.cuh">
+      <Filter>mshadow\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\cuda\tensor_gpu-inl.cuh">
+      <Filter>mshadow\cuda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\broadcast.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\channel_pool.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\channel_unpool.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\concat.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\crop.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\mirror.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\pack_col2patch.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\pad.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\reduceto1d.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\reshape.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\spatial_pool.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\spatial_unpool.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\swapaxis.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow\extension\unpack_patch2col.h">
+      <Filter>mshadow\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\mshadow_ps.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\ps_dist-inl.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\ps_local-inl.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\ps_rabit-inl.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\thread.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mshadow\mshadow-ps\thread_util.h">
+      <Filter>mshadow-ps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

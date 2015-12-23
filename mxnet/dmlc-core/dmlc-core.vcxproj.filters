@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{c2e4eb8b-42d8-4f31-af4c-5d9e2163c4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dmlc">
+      <UniqueIdentifier>{b810100e-33bf-43db-84d8-534c9de9d152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c5071230-8ad9-43fc-856d-7359c6f4214b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\data">
+      <UniqueIdentifier>{39a7f4d4-7626-4130-835a-640c65faca92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{fa7964fc-c2e6-4de0-ab0f-8eaccd8f08fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\base.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\concurrency.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\config.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\data.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\io.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\json.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\logging.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\memory_io.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\omp.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\parameter.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\recordio.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\registry.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\serializer.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\threadediter.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\timer.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\include\dmlc\type_traits.h">
+      <Filter>include\dmlc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\basic_row_iter.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\disk_row_iter.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\libsvm_parser.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\parser.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\row_block.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\data\strtonum.h">
+      <Filter>src\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\cached_input_split.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\filesys.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\input_split_base.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\line_split.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\local_filesys.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\recordio_split.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\single_file_split.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\threaded_input_split.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dmlc-core\src\io\uri_spec.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dmlc-core\src\config.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\data.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\io.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\recordio.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\io\input_split_base.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\io\line_split.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\io\local_filesys.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dmlc-core\src\io\recordio_split.cc">
+      <Filter>src\io</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
