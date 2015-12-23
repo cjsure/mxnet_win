@@ -1,5 +1,10 @@
 This is a port of mxnet on Windows
+Last Update (10/7/2015)
 
+Dependencies:
+----------
+* CUDA 7.0 for windows
+* third_party:
 
 <img src=https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/mxnet2.png width=135/> for Deep Learning
 =====
